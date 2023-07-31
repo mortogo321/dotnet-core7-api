@@ -18,9 +18,16 @@ mcr.microsoft.com/mssql/server:2022-latest
 At first time we initial data by seeder from file: `./Data/Seeder/current.city.list.json` into database name `DemoDb`
 
 ## Run
-```
+We have 2 projects in the solution.
+- DotnetCore7Api
+- DotnetCore7Test
+
+to run the api by following commands:
+
+```shell
+cd dotnet-core7-api
 dotnet run
 ```
 
-Open url in browser: http://localhost:5255/api/cities
+Open url in browser: http://localhost:5255/api/cities  
 Swagger: http://localhost:5255/swagger
